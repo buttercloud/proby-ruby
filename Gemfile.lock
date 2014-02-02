@@ -2,25 +2,25 @@ PATH
   remote: .
   specs:
     proby (2.2.0)
-      chronic (~> 0.6.7)
-      httparty (~> 0.8.1)
+      chronic (~> 0.10.2)
+      httparty (~> 0.12.0)
       multi_json (~> 1.0)
 
 GEM
   remote: http://rubygems.org/
   specs:
     bluecloth (2.1.0)
-    chronic (0.6.7)
+    chronic (0.10.2)
     fakeweb (1.3.0)
-    httparty (0.8.3)
-      multi_json (~> 1.0)
-      multi_xml
-    json (1.6.6)
+    httparty (0.12.0)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.1)
     metaclass (0.0.1)
     mocha (0.10.5)
       metaclass (~> 0.0.1)
-    multi_json (1.3.6)
-    multi_xml (0.5.1)
+    multi_json (1.8.4)
+    multi_xml (0.5.5)
     rake (0.9.2.2)
     shoulda (2.11.3)
     yard (0.6.8)
@@ -32,7 +32,7 @@ DEPENDENCIES
   bluecloth (~> 2.1.0)
   bundler (>= 1.0.0)
   fakeweb (~> 1.3.0)
-  json (~> 1.6.6)
+  json (~> 1.8.0)
   mocha (~> 0.10.5)
   proby!
   rake (~> 0.9.0)
